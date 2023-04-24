@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+    <meta charset="UTF-8">
+    <title>CSS externo (Formulario - 13, 17,24/04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Paralelepiédo</p>
+    <header><!--Cabeçalho-->
+
+    </header>
+
+    <main><!--Meio-->
+        <section class="box">
+            <form>
+                <fieldset>
+                    <legend>
+                        <legend><strong>Formulário de Clientes</strong></legend>
+                        <br>
+                        <section class="inputBox">
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                            <label for="nome" class="labelinput">Nome Completo</label>
+                        </section>
+                        <br><br>
+
+                        <section class="inputBox">
+                            <input type="text" name="email" id="email" class="inputUser" required 
+                            placeholder="seuemail@dominio.com">
+                            <label for="email" class="labelinput">Seu E-Mail</label>
+                        </section>
+                        <br><br>
+                        
+                        <section class="inputBox">
+                            <input type="text" name="tel" id="telefone" class="inputUser" required
+                            placeholder="(xx)xxxxx-xxxx">
+                            <label for="telefone" class="labelinput">Seu Telefone</label>
+                        </section>
+
+                        <p> Sexo:</p>
+                        <input type="radio" name="genero" id="feminino" value="feminino">
+                        <label for="feminino">Feminino</label>
+                        <br>      
+                        
+                        <input type="radio" name="genero id="masculino">
+                        <label for="masculino">Masculino</label>
+                        <br>
+
+                        <input type="radio" name="genero" id="outro"
+                        value="outro">
+                        <label for="outro">Outro</label>
+                        <br><br>
+
+                        <label for="data de nasciento"><strong> Ano de Nascimento</strong></label>
+                        <input type="date" name="data_nascimento" id="data_nascimento"> <required>
+                        <br><br><br>
+
+                        <section class="inputBox">
+                            <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                            <label for="cidade" class="labelinput">Cidade</label>
+                        </section>
+                        <br></br>
+
+                        <section>
+                            <input type="text" name="estado" id="estado" class="inputUser" required>
+                            <label for="estado" class="labelinput">Estado</label>
+                        </section>
+                        <br></br>
+
+                        <section>
+                            <input type="text" name="endereco" class="inputUser" required>
+                            <label for="endereco" class="labelinput">Endereço</label>
+                        </section>
+                        <br></br>
+
+                        <input type="submit" value="Enviar Formulário" id="enviar">
+                        
+
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer><!--Rodapé-->
+        <p class="copyright">&copy; copyright Gabriela Comaretto de Melllo - 2023</p>
+    </footer>
+    
+</body>
+</html>
