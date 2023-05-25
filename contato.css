@@ -7,12 +7,24 @@ header{
     border-radius: 10px;
 }
 
+@font-face {
+    font-family: 'gagalin';
+    src: url('Gagalin-Regular.otf') format('opentype');
+}
+
 .titulo-principal{
     font-family: 'Dancing Script', cursive;
     position: absolute;
-    top: 18%;
-    left: 50%;
-    transform: translate(-30%, -15%);
+    top: 13%;
+    left: 30%;
+    transform: translate(-10%, -50%);
     font-size: 35px;
-    /*font-family:barlow;*/
+    font-family: gagalin;
+    /*font-family: 'Gagalin', sem serifa;*/
+    /*font-family:Barlow;*/
+}
+
+main{
+    width: 940px;
+    margin: auto;
 }
