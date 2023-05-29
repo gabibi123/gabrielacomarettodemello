@@ -20,19 +20,67 @@
             <form>
                 <label for="nomesobrenome">Nome e Sobrenome</label>
                 <input type="text" name="name" id="nomesobrenome" class="inputpadrao"
-                placeholder="\seu nome e sobrenome" required>
+                placeholder="seu nome e sobrenome" required>
+                <br><br>
 
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email"
                 class="input-padrao" placeholder="seuemail@dominio.com" required>
+                <br><br>
 
                 <label for="telefone"> Telefone </label>
                 <input type="tel" name="telefone" id="telefone" class="input-padrao" 
                 placeholder="(XX) XXXXX-XXXX" required>
+                <br><br>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" placeholder="Digite seu texto aqui"
+                required></textarea>
+                <br><br>
+
+                <section>
+                    <p>Como prefere nosso contato?</p>
+
+                    <label for="radio-email"><input type="radio" 
+                    name="contato" value="email" id="radio-email"> Email</label>
+                    <br><br>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" 
+                    value="telefone" id="radio-telefone"> Telefone</label>
+                    <br><br>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato"
+                    value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+                    <br><br>
+                </section>
+
+                <section>
+                    <p>Qual harário prefere ser atendido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <!--dropdown - seleções selecionáveis-->
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                     </select>
+                    </select>
+
+                    
+                    <section>
+                    <label class="checkbox"
+                    <input type="checkbox">Gostaria de receber nossas novidades por 
+                    email?</label>
+
+                    <input type="submit" value="Enviar formulário" class="Enviar"
+
+                </section>
             </form>
+
             
         </main>
+
         <footer>
+            <img id="logo1" src="Logo de veterinária minimalista colorido2.0.png">
+            <p class="copyright">&copy; copyright -- Gabriela Comaretto</p>
 
         </footer>
     </body>
