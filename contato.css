@@ -5,6 +5,8 @@ header{
 
 #logo{
     border-radius: 10px;
+    width: 300px;
+    height: 250px;
 }
 
 @font-face {
@@ -15,9 +17,9 @@ header{
 .titulo-principal{
     font-family: 'Dancing Script', cursive;
     position: absolute;
-    top: 13%;
-    left: 30%;
-    transform: translate(-10%, -50%);
+    top: 20%;
+    left: 45%;
+    transform: translate(-30%, -70%);
     font-size: 35px;
     font-family: gagalin;
     /*font-family: 'Gagalin', sem serifa;*/
@@ -27,4 +29,30 @@ header{
 main{
     width: 940px;
     margin: auto;
+}
+
+form{
+    margin: 40px 0; /*margem superior e inferior de 40px, para os lados zero*/
+
+}
+
+form label, form p{/*Vamos replicar a mesma configuração do form label para o 
+    parágrafo, por isso, o uso da vírgula*/
+
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;/* 10px para baixo*/
+
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;/* 20px para baixo*/
+    padding: 10px 25px;/* 10px p/ cima e p/ baixo e 25px /p os lados*/
+    width: 50%; /* largura dos meus inputs*/
+
+}
+
+.checkbox{
+    margin: 20px 0; /* 20px p/ cima e p/ baixo e zero nas laterais*/
 }
