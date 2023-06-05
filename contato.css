@@ -22,9 +22,35 @@ header{
     transform: translate(-30%, -70%);
     font-size: 35px;
     font-family: gagalin;
-    /*font-family: 'Gagalin', sem serifa;*/
-    /*font-family:Barlow;*/
+    color: #000;
+    color: #0;
+    text-shadow:
+        -1px -1px 0px #ffa500,
+        -1px 4px 0px #fff,
+        1px  -1px 0px #fff,
+        1px 0px 0px #fff
 }
+
+nav{
+    position: absolute;
+    top: 180px;
+    right: 50px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: gagalin;
+}
+    
 
 main{
     width: 940px;
@@ -51,6 +77,10 @@ form label, form p{/*Vamos replicar a mesma configuração do form label para o
     padding: 10px 25px;/* 10px p/ cima e p/ baixo e 25px /p os lados*/
     width: 50%; /* largura dos meus inputs*/
 
+}
+
+input::placeholder{
+    color: rgb(2, 19, 36);
 }
 
 .checkbox{
