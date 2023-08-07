@@ -1,88 +1,51 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CSS externo (formulario) - 13, 17/04</title>
-  <link rel="stylesheet" href="formulario.css">
+    <meta charset="UTF-8">
+    <title>formulário</title>
+    <link rel="stylesbeet" type="text/CSS" href="estilo.css">
 </head>
+<body><pre> 
+    <form method="post" action=" ">
+        <fieldset><legend>formulario</legend>
+Nome:<input type="text" size= "50" maxlength= "40" placeholder="digite nome completo">
 
-<body>
-  <header>
-    <!--cabeçalho-->
+Data de nascimento: <input type="date">
 
-  </header>
-  <main>
-    <!--meio-->
+RG: <input type="text" size="10">
 
-  
-  <section class="box">
-    <form>
-      <fieldset>
-        <legend><strong>Formulário de cliente</strong></legend>
-        <br>
+Cidade: <select name="nome-cidade">
 
-        <section class="inputBox">
-          <input type="text" name="nome" id="name" class="inputUser" required>
-          <label for="name" class="labelinput">Nome Completo</label>
+            <option>Cascavel</option>
+            <option>Corbelia</option>
+            <option>Maringa</option>
+            <option>Londrina</option>
+        </select>
+email: <input type="email">
 
-        </section>
-        <br>
+senha: <input type="password" size="10" maxlength="10" placeholder="digite numeros">
 
-        <section class="inputBox">
-          <input type="text" name="email" id="email" class="inputUser" required="seuemail@dominio.com">
-          <label for="name" class="labelinput">Email</label>
-        </section>
-        <br>
-        <section class="inputBox">
-          <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-          <label for="name" class="labelinput">Telefone</label>
-        </section>
+telefone: <input type="tel">
 
-        <p>Sexo:</p>
-        <input type="radio" name="genero" id="feminino" value="feminino">
-        <label for="feminino">Feminino</label>
-        <br>
+Cursos:
+         <input type="checkbox" name="curso" value="Informatica"> Informatica
+        <input type="checkbox" name="curso" value="Administração"> Administração 
+        <input type="checkbox" name="curso" value="Eletrônica"> Eletrônica
+        Periodo: 
+        <input type="radio" name="periodo" value="matutino"> Matutino
+        <input type="radio" name="periodo" value="vespertino"> Vespertino 
+        <input type="radio" name="periodo" value="noturno"> Noturno
 
-        <input type="radio" name="genero" id="masculino" value="masculino">
-        <label for="masculino">Masculino</label>
-        <br>
+        <input type="submit" value="Enviar os dados">
 
-        <input type="radio" name="genero" id="outro" value="outro">
-        <label for="outro">Outro</label>
-        <br>
+        <input type="reset" value="Apagar os dados">
 
-        <label for="data_nascimento"><strong>Ano de nascimento</strong>
-        </label>
-        <input type="date" name="data_nascimento" id="data_nascimento" required>
-        <br> <br> <br>
-
-        <section class="inputBox">
-          <input type="text" name="cidade" id="cidade" class="inputUser" required>
-          <label for="cidade" class="labelinput">Cidade</label>
-          <br><br>
-
-          <section class="inputBox">
-             <input type="text" name="estado" id="estado" class="inputUser" required>
-          <label for="estado" class="labelinput">Estado</label>
+        <img src="ceep.jpg" width="50%" height="35%" att="">
+        <a href="ceep.jpg"></a>
+        </form>
             
-          </section>
-          <br><br>
-          <section  class="inputBox">
-             <input type="text" name="endereço" id="endereço" class="inputUser" required>
-          <label for="ender" class="labelinput">Endereço</label>
-          </section>
-          <br><br>
+    </fieldset>
 
-          <input type="submit" value="Enviar formulário" id="enviar">
-        </section>
-      </fieldset>
-    </form>
-  </section>
-</main>
-  <footer>
-  </footer>
-
+    
 </body>
-
 </html>
