@@ -1,38 +1,57 @@
 <!DOCTYPE html>
-<html lang=pt-br>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Aula 31/07</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="fieldset{.css">
+    <title>Formulário</title>
 </head>
-<body>
+<body><pre>
     <fieldset>
-        <legend>
+<form method="post" action="">
+Nome <input type="text" size="50" maxlength="40" placeholder="Digite nome completo"> 
 
-            Cadastro aluno
-        </legend>
-        <main>
-            <form>
-                <label for="nome">Nome</label>
-                <input type="text" nome="nome" id="nomesobrenome" class="input-padrao" placeholder=" Seu nome"
-                required>
-                <br> <br> 
+Data nascimento <input type="date">
 
-                <label for="data de nascimento">Data de nascimento: </label>
-                <input type="date" name="data de nascimento" class="input-padrao" placeholder="DD/MM/AAAA">
-                <br> <br>
+RG <input type="text" size="10">
 
-                <label for="telefone"> Telefone </label>
-                <input type="tel" name="telefone" id="telefone" class="input-padrao" 
-                placeholder="(XX) XXXXX-XXXX" required>
-                <br> <br>
-                <section>
-                    <input type="submit" value="Enviar" class="enviar">
-                    <input type="submit" value="Apagar" class="enviar">
-                </section>
-       
+<select name="nome-cidade">
+    <option>Cacavel</option>
+    <option>Corbélia</option>
+    <option>Maringá</option>
+    <option>Londrina</option>
+</select>
 
+Email <input type="email">
+
+Senha <input type="password" size="10" maxlength="10" placeholder="Digite números">
+
+Telefone <input type="tel">
+
+Informática <input type="checkbox" name="Curso" value="Informática">
+
+Administração <input type="checkbox" name="Curso" value="Administração">
+
+Eletrônica <input type="checkbox" name="Curso" value="Eletrônica">
+
+
+Escolha seu período:
+
+Matutino <input type="radio" name="período" value="Matutino">
+
+Vespertino <input type="radio" name="período" value="Vespertino">
+
+Noturno <input type="radio" name="período" value="Noturno">
+
+
+<input type="submit" value="Enviar os dados">
+
+<input type="reset" value="Apagar os dados">
+
+<img src="logo.jpg" width="350px" height="270px" alt="logo do colégio">
+
+<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FCeep_Cvel&psig=AOvVaw005nSeY6cUEt9v1Cpkhj_9&ust=1691513210252000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJi0j_P_yoADFQAAAAAdAAAAABAf">CEEP</a>
+    </form>
     </fieldset>
+    </pre>
 </body>
-
 </html>

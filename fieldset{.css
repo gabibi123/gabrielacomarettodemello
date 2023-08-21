@@ -1,0 +1,40 @@
+fieldset{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+    height: auto;
+    width: auto;
+    border-radius:20px;
+    background: rgb(38, 59, 247);
+    background: linear-gradient(90deg, rgb(3,51, 70) 0%, rgb(67, 67, 240) 54%, rgb(3, 51, 70) 100%);
+    border-color: rgb(0, 0, 0);
+    color: white;
+    border: 10px;
+    
+}
+
+body{
+    background: rgb(146, 241, 221);
+    background: linear-gradient(90deg, rgb(121, 133, 238) 0%, rgb(154, 154, 241) 54%, rgba(255,255,255,1) 100%);
+}
+
+input{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(199, 201, 255);
+    color: rgb(1, 2, 5);
+    font-size: 20px;
+
+    border-color: darkorchid;
+    border-style: dotted;
+    text-decoration: underline;
+
+}
+
+input[type=date]{
+    background-color: cornflowerblue(106,5,5);
+    color: black(7,7,7);
+
+}
+
+select
