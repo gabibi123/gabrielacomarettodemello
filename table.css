@@ -1,0 +1,15 @@
+body{
+    background-color: cornflowerblue;
+}
+h1{
+    color: rgb(23, 61, 60);
+    font-size: 50px;
+    font-style: italic;
+}
+.td_nome{
+    font-size: 20px;
+    color: rgb(rgb(0, 0, 0), rgb(0, 0, 0), rgb(118, 118, 246)); 
+}
+.exemplo{color:coral;
+background-color: aliceblue;
+}
